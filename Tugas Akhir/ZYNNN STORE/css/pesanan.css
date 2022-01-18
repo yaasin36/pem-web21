@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #32323e;
+    font-family: 'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 14px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+    .form-control {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.card {
+    position: relative !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    word-wrap: break-word !important;
+    background-color: #272730 !important;
+    background-clip: border-box !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: .25rem !important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+
+
+
+.home-subscribe-container {
+    background-color: #272730;
+    padding: 15px 0 30px;
+    margin: 28px 0 0;
+}
+
+.footer {
+    position: relative;
+    background-color: #32323e;
+    color: white;
+    width: 100%;
+}
